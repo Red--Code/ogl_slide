@@ -1,0 +1,26 @@
+# ninja log v6
+49	542	7537190317112184	src/CMakeFiles/glfw.dir/window.c.obj	c774f7114c611477
+36	556	7537190316985516	src/CMakeFiles/glfw.dir/platform.c.obj	574d38528287f7a9
+67	566	7537190317288667	src/CMakeFiles/glfw.dir/null_init.c.obj	c9be1874d3caae95
+61	580	7537190317238639	src/CMakeFiles/glfw.dir/osmesa_context.c.obj	62f8dc9fdc43e771
+30	590	7537190316918052	src/CMakeFiles/glfw.dir/monitor.c.obj	6bdd0049eb411340
+20	602	7537190316824517	src/CMakeFiles/glfw.dir/init.c.obj	717dceac51cde810
+74	613	7537190317365500	src/CMakeFiles/glfw.dir/null_monitor.c.obj	938025a52a927c34
+25	625	7537190316875182	src/CMakeFiles/glfw.dir/input.c.obj	11d1b1c4f6bc3a9a
+14	636	7537190316763476	src/CMakeFiles/glfw.dir/context.c.obj	c2017f3e14c0ea17
+81	651	7537190317423919	src/CMakeFiles/glfw.dir/null_window.c.obj	9625a49bed9069b
+55	656	7537190317165520	src/CMakeFiles/glfw.dir/egl_context.c.obj	f6def5835e2ef467
+43	661	7537190317055148	src/CMakeFiles/glfw.dir/vulkan.c.obj	320ca0cf8030a0cd
+87	703	7537190317487021	src/CMakeFiles/glfw.dir/null_joystick.c.obj	c02baf5e293f983a
+636	801	7537190322979364	src/CMakeFiles/glfw.dir/glfw.rc.res	1d58efd5ba2e25e2
+567	957	7537190322296379	src/CMakeFiles/glfw.dir/win32_thread.c.obj	fb4965aa33862b2f
+546	964	7537190322080742	src/CMakeFiles/glfw.dir/win32_module.c.obj	2011a267afc2da28
+557	969	7537190322190999	src/CMakeFiles/glfw.dir/win32_time.c.obj	151f6393def68706
+625	974	7537190322877105	src/CMakeFiles/glfw.dir/wgl_context.c.obj	8f3a54a14f3eb951
+580	979	7537190322427589	src/CMakeFiles/glfw.dir/win32_init.c.obj	fc933542f77b6c18
+602	983	7537190322638514	src/CMakeFiles/glfw.dir/win32_monitor.c.obj	83786a267c28aeb9
+591	987	7537190322534190	src/CMakeFiles/glfw.dir/win32_joystick.c.obj	bd4ffae1282f0949
+613	991	7537190322755963	src/CMakeFiles/glfw.dir/win32_window.c.obj	e33c300484399c01
+992	1313	7537190329459274	src/glfw3.dll	546dcf88e284ae3d
+992	1313	7537190329459274	src/glfw3dll.lib	546dcf88e284ae3d
+1314	1485	7537190329762451	CMakeFiles/install.util	27643b6267b09737

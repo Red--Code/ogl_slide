@@ -1,0 +1,13 @@
+//user-defined headers
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/core/misc/python/pyopencv_async.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/core/misc/python/pyopencv_core.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/core/misc/python/pyopencv_umat.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/ml/misc/python/pyopencv_ml.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/videoio/misc/python/pyopencv_videoio.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/objdetect/misc/python/pyopencv_objdetect.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/stitching/misc/python/pyopencv_stitching.hpp"
+#include "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/src/4.8.0-f4e8005717.clean/modules/video/misc/python/pyopencv_video.hpp"

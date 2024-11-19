@@ -1,0 +1,16 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/sharpyuv.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdecode.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdspdecode.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webputilsdecode.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdecoder.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpencode.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdsp.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webputils.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webp.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/webpdemux.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/libwebpmux.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/edit_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/list_install_components.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/install.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-rel/CMakeFiles/install/local.dir

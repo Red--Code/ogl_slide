@@ -1,0 +1,11 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/glew32d.lib
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/bin/glew32d.dll
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/pkgconfig/glew.pc
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/glew32d.pdb
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/include/GL/wglew.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/include/GL/glew.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/include/GL/glxew.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/cmake/glew/glew-targets.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/cmake/glew/glew-targets-debug.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/cmake/glew/glew-config.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/debug/lib/cmake/glew/CopyImportedTargetProperties.cmake

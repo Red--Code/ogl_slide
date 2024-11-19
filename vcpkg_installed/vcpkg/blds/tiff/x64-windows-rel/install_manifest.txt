@@ -1,0 +1,11 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/lib/pkgconfig/libtiff-4.pc
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/lib/tiff.lib
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/bin/tiff.dll
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/include/tiff.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/include/tiffio.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/include/tiffvers.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/include/tiffconf.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffTargets.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffTargets-release.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffConfigVersion.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/tiff_x64-windows/lib/cmake/tiff/TiffConfig.cmake

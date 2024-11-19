@@ -1,0 +1,445 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-apmlhd"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-apmlhd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-apmlhd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_47812
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_47812.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_47812.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_47812.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_47812.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_47812.exe /implib:cmTC_47812.lib /pdb:cmTC_47812.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sgvpty"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sgvpty"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sgvpty'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b9554
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_b9554.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_b9554.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b9554.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b9554.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_b9554.exe /implib:cmTC_b9554.lib /pdb:cmTC_b9554.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:15 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckLinkerFlag.cmake:37 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLinkerFlag.cmake:44 (cmake_check_linker_flag)"
+      - "CMakeLists.txt:135 (check_linker_flag)"
+    checks:
+      - "Performing Test protobuf_HAVE_LD_VERSION_SCRIPT"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-veebe4"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-veebe4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "protobuf_HAVE_LD_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-veebe4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d1b23
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -Dprotobuf_HAVE_LD_VERSION_SCRIPT  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_d1b23.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_d1b23.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-veebe4\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d1b23.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d1b23.dir\\src.cxx.obj  /out:cmTC_d1b23.exe /implib:cmTC_d1b23.lib /pdb:cmTC_d1b23.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  -Wl,--version-script=D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/cmaketest.map  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:149 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-shtwvn"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-shtwvn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-shtwvn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_10ac8
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_10ac8.dir\\src.c.obj /FdCMakeFiles\\cmTC_10ac8.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-shtwvn\\src.c
+        FAILED: CMakeFiles/cmTC_10ac8.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_10ac8.dir\\src.c.obj /FdCMakeFiles\\cmTC_10ac8.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-shtwvn\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-shtwvn\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:149 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-hqbgfy"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-hqbgfy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-hqbgfy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_65570
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=pthread_create /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_65570.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_65570.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-hqbgfy\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_65570.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_65570.dir\\CheckFunctionExists.c.obj  /out:cmTC_65570.exe /implib:cmTC_65570.lib /pdb:cmTC_65570.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_65570.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_65570.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_65570.dir\\CheckFunctionExists.c.obj  /out:cmTC_65570.exe /implib:cmTC_65570.lib /pdb:cmTC_65570.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_65570.dir\\CheckFunctionExists.c.obj /out:cmTC_65570.exe /implib:cmTC_65570.lib /pdb:cmTC_65570.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_65570.dir/intermediate.manifest CMakeFiles\\cmTC_65570.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:149 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-270qbe"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-270qbe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/protobuf/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-270qbe'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cf691
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=pthread_create /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1  -MDd /showIncludes /FoCMakeFiles\\cmTC_cf691.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_cf691.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\protobuf\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-270qbe\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cf691.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cf691.dir\\CheckFunctionExists.c.obj  /out:cmTC_cf691.exe /implib:cmTC_cf691.lib /pdb:cmTC_cf691.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_cf691.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cf691.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cf691.dir\\CheckFunctionExists.c.obj  /out:cmTC_cf691.exe /implib:cmTC_cf691.lib /pdb:cmTC_cf691.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cf691.dir\\CheckFunctionExists.c.obj /out:cmTC_cf691.exe /implib:cmTC_cf691.lib /pdb:cmTC_cf691.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cf691.dir/intermediate.manifest CMakeFiles\\cmTC_cf691.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

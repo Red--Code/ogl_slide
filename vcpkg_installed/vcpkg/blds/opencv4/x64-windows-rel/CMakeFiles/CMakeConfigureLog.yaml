@@ -1,0 +1,1825 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/GR;/EHsc;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCXXCompilerId.cpp
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/3.29.5-msvc4/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:113 (enable_language)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-svhfje"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-svhfje"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-svhfje'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_78005
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_78005.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_78005.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_78005.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_78005.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_78005.exe /implib:cmTC_78005.lib /pdb:cmTC_78005.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:113 (enable_language)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qoda94"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qoda94"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-qoda94'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_03be6
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_03be6.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_03be6.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_03be6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_03be6.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_03be6.exe /implib:cmTC_03be6.lib /pdb:cmTC_03be6.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:113 (enable_language)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:58 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptions.cmake:97 (add_extra_compiler_option)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CXX_FP:PRECISE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_865cc
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7      /fp:precise /showIncludes /FoCMakeFiles\\cmTC_865cc.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_865cc.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_865cc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_865cc.dir\\src.cxx.obj  /out:cmTC_865cc.exe /implib:cmTC_865cc.lib /pdb:cmTC_865cc.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:63 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptions.cmake:97 (add_extra_compiler_option)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_C_FP:PRECISE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0e948
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7      /fp:precise /showIncludes /FoCMakeFiles\\cmTC_0e948.dir\\src.c.obj /FdCMakeFiles\\cmTC_0e948.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0e948.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0e948.dir\\src.c.obj  /out:cmTC_0e948.exe /implib:cmTC_0e948.lib /pdb:cmTC_0e948.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:452 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_SSE3_SUPPORT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_fe391
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_fe391.dir\\cpu_sse3.cpp.obj /FdCMakeFiles\\cmTC_fe391.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_sse3.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_fe391.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_fe391.dir\\cpu_sse3.cpp.obj  /out:cmTC_fe391.exe /implib:cmTC_fe391.lib /pdb:cmTC_fe391.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:452 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_SSSE3_SUPPORT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0e3b4
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_0e3b4.dir\\cpu_ssse3.cpp.obj /FdCMakeFiles\\cmTC_0e3b4.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_ssse3.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0e3b4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0e3b4.dir\\cpu_ssse3.cpp.obj  /out:cmTC_0e3b4.exe /implib:cmTC_0e3b4.lib /pdb:cmTC_0e3b4.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:452 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_SSE4_1_SUPPORT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_268e5
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_268e5.dir\\cpu_sse41.cpp.obj /FdCMakeFiles\\cmTC_268e5.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_sse41.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_268e5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_268e5.dir\\cpu_sse41.cpp.obj  /out:cmTC_268e5.exe /implib:cmTC_268e5.lib /pdb:cmTC_268e5.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:452 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_POPCNT_SUPPORT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ebce9
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_ebce9.dir\\cpu_popcnt.cpp.obj /FdCMakeFiles\\cmTC_ebce9.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_popcnt.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ebce9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ebce9.dir\\cpu_popcnt.cpp.obj  /out:cmTC_ebce9.exe /implib:cmTC_ebce9.lib /pdb:cmTC_ebce9.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:452 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_SSE4_2_SUPPORT"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a6d71
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_a6d71.dir\\cpu_sse42.cpp.obj /FdCMakeFiles\\cmTC_a6d71.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_sse42.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a6d71.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a6d71.dir\\cpu_sse42.cpp.obj  /out:cmTC_a6d71.exe /implib:cmTC_a6d71.lib /pdb:cmTC_a6d71.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:447 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CXX_ARCH:AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7b650
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /arch:AVX /showIncludes /FoCMakeFiles\\cmTC_7b650.dir\\cpu_fp16.cpp.obj /FdCMakeFiles\\cmTC_7b650.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_fp16.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7b650.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7b650.dir\\cpu_fp16.cpp.obj  /out:cmTC_7b650.exe /implib:cmTC_7b650.lib /pdb:cmTC_7b650.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:447 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CXX_ARCH:AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0708f
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /arch:AVX2 /showIncludes /FoCMakeFiles\\cmTC_0708f.dir\\cpu_avx2.cpp.obj /FdCMakeFiles\\cmTC_0708f.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_avx2.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0708f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0708f.dir\\cpu_avx2.cpp.obj  /out:cmTC_0708f.exe /implib:cmTC_0708f.lib /pdb:cmTC_0708f.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:447 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:543 (ocv_check_compiler_optimization)"
+      - "cmake/OpenCVCompilerOptions.cmake:323 (include)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CXX_ARCH:AVX512"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_b1c37
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /arch:AVX512 /showIncludes /FoCMakeFiles\\cmTC_b1c37.dir\\cpu_avx512.cpp.obj /FdCMakeFiles\\cmTC_b1c37.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\cpu_avx512.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b1c37.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b1c37.dir\\cpu_avx512.cpp.obj  /out:cmTC_b1c37.exe /implib:cmTC_b1c37.lib /pdb:cmTC_b1c37.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:609 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_BASELINE_FLAGS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_562aa
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS /showIncludes /FoCMakeFiles\\cmTC_562aa.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_562aa.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_562aa.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_562aa.dir\\src.cxx.obj  /out:cmTC_562aa.exe /implib:cmTC_562aa.lib /pdb:cmTC_562aa.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:644 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_DISPATCH_FLAGS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9e90d
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS /showIncludes /FoCMakeFiles\\cmTC_9e90d.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_9e90d.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9e90d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9e90d.dir\\src.cxx.obj  /out:cmTC_9e90d.exe /implib:cmTC_9e90d.lib /pdb:cmTC_9e90d.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:644 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_DISPATCH_FLAGS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e2dfc
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS /showIncludes /FoCMakeFiles\\cmTC_e2dfc.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_e2dfc.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e2dfc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e2dfc.dir\\src.cxx.obj  /out:cmTC_e2dfc.exe /implib:cmTC_e2dfc.lib /pdb:cmTC_e2dfc.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:644 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_DISPATCH_FLAGS_FP16"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_8b1de
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS          /arch:AVX /arch:AVX /showIncludes /FoCMakeFiles\\cmTC_8b1de.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_8b1de.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8b1de.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8b1de.dir\\src.cxx.obj  /out:cmTC_8b1de.exe /implib:cmTC_8b1de.lib /pdb:cmTC_8b1de.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:644 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_DISPATCH_FLAGS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_5d0f3
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS          /arch:AVX /showIncludes /FoCMakeFiles\\cmTC_5d0f3.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_5d0f3.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5d0f3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5d0f3.dir\\src.cxx.obj  /out:cmTC_5d0f3.exe /implib:cmTC_5d0f3.lib /pdb:cmTC_5d0f3.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:644 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_DISPATCH_FLAGS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7ccb9
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS          /arch:AVX  /arch:AVX /arch:AVX2 /showIncludes /FoCMakeFiles\\cmTC_7ccb9.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_7ccb9.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7ccb9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7ccb9.dir\\src.cxx.obj  /out:cmTC_7ccb9.exe /implib:cmTC_7ccb9.lib /pdb:cmTC_7ccb9.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVCompilerOptimizations.cmake:644 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:326 (ocv_compiler_optimization_options)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP "
+      CMAKE_CXX_FLAGS_RELEASE: "/MD /O2 /Oi /Gy /DNDEBUG /Z7 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CPU_DISPATCH_FLAGS_AVX512_SKX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6f836
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /EHsc /MP   /MD /O2 /Oi /Gy /DNDEBUG /Z7     /fp:precise /FS          /arch:AVX  /arch:AVX /arch:AVX2 /arch:AVX512 /arch:AVX512 /arch:AVX512 /showIncludes /FoCMakeFiles\\cmTC_6f836.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_6f836.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6f836.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6f836.dir\\src.cxx.obj  /out:cmTC_6f836.exe /implib:cmTC_6f836.lib /pdb:cmTC_6f836.pdb /version:0.0 /machine:x64  /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:58 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptions.cmake:430 (add_extra_compiler_option)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa"
+      CMAKE_CXX_FLAGS_RELEASE: " /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CXX_W15240"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4f828
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa   /MD /O2 /Oi /Gy /DNDEBUG /Z7      /fp:precise /FS      /w15240 /showIncludes /FoCMakeFiles\\cmTC_4f828.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_4f828.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4f828.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4f828.dir\\src.cxx.obj  /out:cmTC_4f828.exe /implib:cmTC_4f828.lib /pdb:cmTC_4f828.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVUtils.cmake:509 (TRY_COMPILE)"
+      - "cmake/OpenCVUtils.cmake:581 (ocv_check_compiler_flag)"
+      - "cmake/OpenCVCompilerOptions.cmake:63 (ocv_check_flag_support)"
+      - "cmake/OpenCVCompilerOptions.cmake:430 (add_extra_compiler_option)"
+      - "CMakeLists.txt:652 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_C_W15240"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d12db
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7      /fp:precise /FS      /w15240 /showIncludes /FoCMakeFiles\\cmTC_d12db.dir\\src.c.obj /FdCMakeFiles\\cmTC_d12db.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d12db.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d12db.dir\\src.c.obj  /out:cmTC_d12db.exe /implib:cmTC_d12db.lib /pdb:cmTC_d12db.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:719 (CHECK_INCLUDE_FILE)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-soprdc"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-soprdc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-soprdc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4b45f
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_4b45f.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4b45f.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-soprdc\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4b45f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4b45f.dir\\CheckIncludeFile.c.obj  /out:cmTC_4b45f.exe /implib:cmTC_4b45f.lib /pdb:cmTC_4b45f.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:721 (CHECK_SYMBOL_EXISTS)"
+    checks:
+      - "Looking for _aligned_malloc"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xt0e1o"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xt0e1o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_WIN32_ALIGNED_MALLOC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-xt0e1o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_f21a4
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_f21a4.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_f21a4.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-xt0e1o\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f21a4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f21a4.dir\\CheckSymbolExists.c.obj  /out:cmTC_f21a4.exe /implib:cmTC_f21a4.lib /pdb:cmTC_f21a4.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVFindFrameworks.cmake:23 (try_compile)"
+      - "CMakeLists.txt:751 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819"
+      CMAKE_CXX_FLAGS_RELEASE: " /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_CONCURRENCY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_468ab
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_468ab.dir\\concurrencytest.cpp.obj /FdCMakeFiles\\cmTC_468ab.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeTmp\\concurrencytest.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_468ab.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_468ab.dir\\concurrencytest.cpp.obj  /out:cmTC_468ab.exe /implib:cmTC_468ab.lib /pdb:cmTC_468ab.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/projects/vms/ogl_slide/vcpkg_installed/x64-windows/share/WebP/WebPConfig.cmake:33 (find_dependency)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/OpenCVFindLibsGrfmt.cmake:149 (find_package)"
+      - "CMakeLists.txt:753 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-vjen5h"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-vjen5h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-vjen5h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e6cb2
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_e6cb2.dir\\src.c.obj /FdCMakeFiles\\cmTC_e6cb2.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-vjen5h\\src.c
+        FAILED: CMakeFiles/cmTC_e6cb2.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_e6cb2.dir\\src.c.obj /FdCMakeFiles\\cmTC_e6cb2.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-vjen5h\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-vjen5h\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/projects/vms/ogl_slide/vcpkg_installed/x64-windows/share/WebP/WebPConfig.cmake:33 (find_dependency)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/OpenCVFindLibsGrfmt.cmake:149 (find_package)"
+      - "CMakeLists.txt:753 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-yrx4md"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-yrx4md"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-yrx4md'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_aa0d3
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     -DCHECK_FUNCTION_EXISTS=pthread_create   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_aa0d3.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_aa0d3.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-yrx4md\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_aa0d3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_aa0d3.dir\\CheckFunctionExists.c.obj  /out:cmTC_aa0d3.exe /implib:cmTC_aa0d3.lib /pdb:cmTC_aa0d3.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_aa0d3.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_aa0d3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_aa0d3.dir\\CheckFunctionExists.c.obj  /out:cmTC_aa0d3.exe /implib:cmTC_aa0d3.lib /pdb:cmTC_aa0d3.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_aa0d3.dir\\CheckFunctionExists.c.obj /out:cmTC_aa0d3.exe /implib:cmTC_aa0d3.lib /pdb:cmTC_aa0d3.pdb /version:0.0 /machine:x64 /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST:EMBED,ID=1" failed (exit code 1181) with the following output:
+        LINK : fatal error LNK1181: cannot open input file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/projects/vms/ogl_slide/vcpkg_installed/x64-windows/share/WebP/WebPConfig.cmake:33 (find_dependency)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/OpenCVFindLibsGrfmt.cmake:149 (find_package)"
+      - "CMakeLists.txt:753 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zo0uc2"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zo0uc2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-zo0uc2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_01ef1
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     -DCHECK_FUNCTION_EXISTS=pthread_create   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_01ef1.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_01ef1.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-zo0uc2\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_01ef1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_01ef1.dir\\CheckFunctionExists.c.obj  /out:cmTC_01ef1.exe /implib:cmTC_01ef1.lib /pdb:cmTC_01ef1.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_01ef1.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_01ef1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_01ef1.dir\\CheckFunctionExists.c.obj  /out:cmTC_01ef1.exe /implib:cmTC_01ef1.lib /pdb:cmTC_01ef1.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_01ef1.dir\\CheckFunctionExists.c.obj /out:cmTC_01ef1.exe /implib:cmTC_01ef1.lib /pdb:cmTC_01ef1.pdb /version:0.0 /machine:x64 /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST:EMBED,ID=1" failed (exit code 1181) with the following output:
+        LINK : fatal error LNK1181: cannot open input file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake/OpenCVFindLibsGrfmt.cmake:259 (check_include_file)"
+      - "CMakeLists.txt:753 (include)"
+    checks:
+      - "Looking for D:/projects/vms/ogl_slide/vcpkg_installed/x64-windows/include/libpng/png.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-eok6ck"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-eok6ck"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_LIBPNG_PNG_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-eok6ck'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c4708
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_c4708.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c4708.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eok6ck\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_c4708.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_c4708.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_c4708.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eok6ck\\CheckIncludeFile.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-eok6ck\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'D:/projects/vms/ogl_slide/vcpkg_installed/x64-windows/include/libpng/png.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVDetectOpenCL.cmake:22 (try_compile)"
+      - "CMakeLists.txt:826 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819"
+      CMAKE_CXX_FLAGS_RELEASE: " /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "__VALID_OPENCL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ace69
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP  -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\3rdparty\\include\\opencl\\1.2 /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_ace69.dir\\opencl.cpp.obj /FdCMakeFiles\\cmTC_ace69.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\opencl.cpp
+        OpenCL is valid
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ace69.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ace69.dir\\opencl.cpp.obj  /out:cmTC_ace69.exe /implib:cmTC_ace69.lib /pdb:cmTC_ace69.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVDetectDirectX.cmake:2 (try_compile)"
+      - "CMakeLists.txt:851 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819"
+      CMAKE_CXX_FLAGS_RELEASE: " /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "__VALID_DIRECTX"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cc59f
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_cc59f.dir\\directx.cpp.obj /FdCMakeFiles\\cmTC_cc59f.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\directx.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cc59f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cc59f.dir\\directx.cpp.obj  /out:cmTC_cc59f.exe /implib:cmTC_cc59f.lib /pdb:cmTC_cc59f.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  d3d11.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/OpenCVDetectDirectX.cmake:12 (try_compile)"
+      - "CMakeLists.txt:851 (include)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819"
+      CMAKE_CXX_FLAGS_RELEASE: " /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "__VALID_DIRECTX_NV12"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3ff58
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DCHECK_NV12  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_3ff58.dir\\directx.cpp.obj /FdCMakeFiles\\cmTC_3ff58.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\directx.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3ff58.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3ff58.dir\\directx.cpp.obj  /out:cmTC_3ff58.exe /implib:cmTC_3ff58.lib /pdb:cmTC_3ff58.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  d3d11.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "modules/highgui/cmake/detect_win32ui.cmake:4 (try_compile)"
+      - "modules/highgui/cmake/init.cmake:35 (include)"
+      - "modules/highgui/cmake/init.cmake:40 (add_backend)"
+      - "cmake/OpenCVModule.cmake:298 (include)"
+      - "cmake/OpenCVModule.cmake:361 (_add_modules_1)"
+      - "cmake/OpenCVModule.cmake:408 (ocv_glob_modules)"
+      - "CMakeLists.txt:967 (ocv_register_modules)"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819"
+      CMAKE_CXX_FLAGS_RELEASE: " /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_WIN32UI"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7197c
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /nologo /DWIN32 /D_WINDOWS /utf-8 /GR /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /wd4819   /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_7197c.dir\\win32uitest.cpp.obj /FdCMakeFiles\\cmTC_7197c.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\src\\4.8.0-f4e8005717.clean\\cmake\\checks\\win32uitest.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7197c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7197c.dir\\win32uitest.cpp.obj  /out:cmTC_7197c.exe /implib:cmTC_7197c.lib /pdb:cmTC_7197c.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  user32.lib  gdi32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "modules/videoio/cmake/detect_obsensor.cmake:4 (check_include_file)"
+      - "modules/videoio/cmake/init.cmake:7 (include)"
+      - "modules/videoio/cmake/init.cmake:25 (add_backend)"
+      - "cmake/OpenCVModule.cmake:298 (include)"
+      - "cmake/OpenCVModule.cmake:361 (_add_modules_1)"
+      - "cmake/OpenCVModule.cmake:408 (ocv_glob_modules)"
+      - "CMakeLists.txt:967 (ocv_register_modules)"
+    checks:
+      - "Looking for mfapi.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-cgkvfw"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-cgkvfw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MFAPI"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-cgkvfw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_23d76
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_23d76.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_23d76.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-cgkvfw\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_23d76.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_23d76.dir\\CheckIncludeFile.c.obj  /out:cmTC_23d76.exe /implib:cmTC_23d76.lib /pdb:cmTC_23d76.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "modules/videoio/cmake/detect_obsensor.cmake:5 (check_include_file)"
+      - "modules/videoio/cmake/init.cmake:7 (include)"
+      - "modules/videoio/cmake/init.cmake:25 (add_backend)"
+      - "cmake/OpenCVModule.cmake:298 (include)"
+      - "cmake/OpenCVModule.cmake:361 (_add_modules_1)"
+      - "cmake/OpenCVModule.cmake:408 (ocv_glob_modules)"
+      - "CMakeLists.txt:967 (ocv_register_modules)"
+    checks:
+      - "Looking for vidcap.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sec151"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sec151"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_VIDCAP"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-sec151'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3039a
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_3039a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_3039a.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-sec151\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3039a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3039a.dir\\CheckIncludeFile.c.obj  /out:cmTC_3039a.exe /implib:cmTC_3039a.lib /pdb:cmTC_3039a.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "modules/videoio/cmake/detect_msmf.cmake:12 (check_include_file)"
+      - "modules/videoio/cmake/init.cmake:7 (include)"
+      - "modules/videoio/cmake/init.cmake:31 (add_backend)"
+      - "cmake/OpenCVModule.cmake:298 (include)"
+      - "cmake/OpenCVModule.cmake:361 (_add_modules_1)"
+      - "cmake/OpenCVModule.cmake:408 (ocv_glob_modules)"
+      - "CMakeLists.txt:967 (ocv_register_modules)"
+    checks:
+      - "Looking for d3d11_4.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rgljlu"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rgljlu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS    "
+      CMAKE_C_FLAGS_RELEASE: "  /MD /O2 /Oi /Gy /DNDEBUG /Z7  "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64 "
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_D3D11_4"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/opencv4/x64-windows-rel/CMakeFiles/CMakeScratch/TryCompile-rgljlu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ee2ea
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise /FS        /MD /O2 /Oi /Gy /DNDEBUG /Z7 /showIncludes /FoCMakeFiles\\cmTC_ee2ea.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_ee2ea.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\opencv4\\x64-windows-rel\\CMakeFiles\\CMakeScratch\\TryCompile-rgljlu\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ee2ea.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ee2ea.dir\\CheckIncludeFile.c.obj  /out:cmTC_ee2ea.exe /implib:cmTC_ee2ea.lib /pdb:cmTC_ee2ea.pdb /version:0.0 /machine:x64   /nologo /DEBUG /INCREMENTAL:NO /OPT:REF /OPT:ICF   /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

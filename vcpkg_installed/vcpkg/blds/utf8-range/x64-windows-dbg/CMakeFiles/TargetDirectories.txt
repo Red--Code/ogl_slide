@@ -1,0 +1,7 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/utf8_range.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/utf8_validity.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/edit_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/list_install_components.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/install.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/utf8-range/x64-windows-dbg/CMakeFiles/install/local.dir

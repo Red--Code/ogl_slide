@@ -1,0 +1,1 @@
+#use_cache "C:/Users/husse/AppData/Local/vcpkg/downloads/opencv-cache"

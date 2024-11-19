@@ -1,0 +1,10 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/lib/glew32.lib
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/bin/glew32.dll
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/lib/pkgconfig/glew.pc
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/include/GL/wglew.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/include/GL/glew.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/include/GL/glxew.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/lib/cmake/glew/glew-targets.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/lib/cmake/glew/glew-targets-release.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/lib/cmake/glew/glew-config.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/glew_x64-windows/lib/cmake/glew/CopyImportedTargetProperties.cmake

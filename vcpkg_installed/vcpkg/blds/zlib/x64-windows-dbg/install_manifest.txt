@@ -1,0 +1,2 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/zlib_x64-windows/debug/lib/zlibd.lib
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/zlib_x64-windows/debug/bin/zlibd1.dll

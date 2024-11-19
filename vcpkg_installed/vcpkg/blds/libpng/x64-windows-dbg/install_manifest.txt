@@ -1,0 +1,6 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng16d.lib
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/bin/libpng16d.dll
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/pkgconfig/libpng16.pc
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng/libpng16.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng/libpng16-debug.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/libpng_x64-windows/debug/lib/libpng/libpng-config.cmake

@@ -1,0 +1,8 @@
+# ninja log v6
+23	81	7537231243884109	CMakeFiles/utf8_range.dir/range2-neon.c.obj	73b591b69f3af53d
+28	84	7537231243952594	CMakeFiles/utf8_range.dir/range2-sse.c.obj	5dfb783e3d5c67e
+14	117	7537231243776427	CMakeFiles/utf8_range.dir/naive.c.obj	4da3b5467421a726
+117	182	7537231244838087	utf8_range.lib	92a5ddcd657ce690
+33	448	7537231243975561	CMakeFiles/utf8_validity.dir/utf8_validity.cc.obj	ae485eae9161f54a
+448	508	7537231248149921	utf8_validity.lib	41b6dfabfc32d9c5
+509	607	7537231248763850	CMakeFiles/install.util	925f7248c5deea5b

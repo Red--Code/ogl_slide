@@ -1,0 +1,26 @@
+# ninja log v6
+42	494	7537190332311292	src/CMakeFiles/glfw.dir/vulkan.c.obj	1ab2aeb118269246
+21	510	7537190332107574	src/CMakeFiles/glfw.dir/init.c.obj	b1a80225d8aaa0ca
+36	525	7537190332256841	src/CMakeFiles/glfw.dir/platform.c.obj	f618969258b3a048
+31	569	7537190332199506	src/CMakeFiles/glfw.dir/monitor.c.obj	3676e5f1cc5e7bb9
+77	581	7537190332657693	src/CMakeFiles/glfw.dir/null_window.c.obj	b2297d630b577a19
+54	595	7537190332431893	src/CMakeFiles/glfw.dir/egl_context.c.obj	10b2d97141cdd6cf
+47	608	7537190332369003	src/CMakeFiles/glfw.dir/window.c.obj	60a0a5ba58762c52
+71	620	7537190332607239	src/CMakeFiles/glfw.dir/null_monitor.c.obj	b5a99954d78a2d8f
+65	633	7537190332538991	src/CMakeFiles/glfw.dir/null_init.c.obj	498b38fd55737c42
+59	648	7537190332487455	src/CMakeFiles/glfw.dir/osmesa_context.c.obj	b91af55e9b90e434
+15	655	7537190332039472	src/CMakeFiles/glfw.dir/context.c.obj	763010eb8a11bdd2
+82	704	7537190332716948	src/CMakeFiles/glfw.dir/null_joystick.c.obj	2592e63a2e0f5baa
+26	709	7537190332156649	src/CMakeFiles/glfw.dir/input.c.obj	ed91898837e63658
+634	787	7537190338228906	src/CMakeFiles/glfw.dir/glfw.rc.res	c066c1847d3c0c71
+497	920	7537190336865062	src/CMakeFiles/glfw.dir/win32_module.c.obj	701b5400df2d7f17
+526	930	7537190337144101	src/CMakeFiles/glfw.dir/win32_thread.c.obj	6f7ba2707f1d67d0
+511	939	7537190337001796	src/CMakeFiles/glfw.dir/win32_time.c.obj	f3eb9ac04ee9a0aa
+569	983	7537190337585318	src/CMakeFiles/glfw.dir/win32_init.c.obj	4fc45a087249fc
+583	1000	7537190337719048	src/CMakeFiles/glfw.dir/win32_joystick.c.obj	c62a2ad6251f3e34
+595	1016	7537190337840163	src/CMakeFiles/glfw.dir/win32_monitor.c.obj	800d5f8d90c21523
+621	1047	7537190338100330	src/CMakeFiles/glfw.dir/wgl_context.c.obj	2ca30d089485fb0f
+608	1067	7537190337974776	src/CMakeFiles/glfw.dir/win32_window.c.obj	8c5553b20793e7c1
+1068	1221	7537190343822682	src/glfw3.dll	6122691403762c1e
+1068	1221	7537190343822682	src/glfw3dll.lib	6122691403762c1e
+1222	1374	7537190344106876	CMakeFiles/install.util	463c32e6a1626ad1

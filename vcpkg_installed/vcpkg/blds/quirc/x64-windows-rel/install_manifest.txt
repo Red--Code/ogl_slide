@@ -1,0 +1,4 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/quirc_x64-windows/lib/quirc.lib
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/quirc_x64-windows/include/quirc.h
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/quirc_x64-windows/share/quirc/quirc-config.cmake
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/quirc_x64-windows/share/quirc/quirc-config-release.cmake

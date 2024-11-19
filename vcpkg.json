@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "glew",
+    "glfw3",
+    "glm",
+    "opengl",
+    "stb",
+    "opencv"
+  ]
+}

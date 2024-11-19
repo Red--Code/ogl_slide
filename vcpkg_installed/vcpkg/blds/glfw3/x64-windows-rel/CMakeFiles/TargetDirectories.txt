@@ -1,0 +1,13 @@
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/CMakeFiles/uninstall.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/CMakeFiles/edit_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/CMakeFiles/list_install_components.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/CMakeFiles/install.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/CMakeFiles/install/local.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/glfw.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/update_mappings.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/edit_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/rebuild_cache.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/list_install_components.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/install.dir
+D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/glfw3/x64-windows-rel/src/CMakeFiles/install/local.dir

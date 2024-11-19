@@ -1,0 +1,11 @@
+prefix=D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/abseil_x64-windows
+exec_prefix=${prefix}
+libdir=D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/abseil_x64-windows/lib
+includedir=D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/pkgs/abseil_x64-windows/include
+
+Name: abseil_dll
+Description: Abseil DLL library
+URL: https://abseil.io/
+Version: 20240722
+Libs: -L${libdir} -labseil_dll 
+Cflags: -I${includedir}

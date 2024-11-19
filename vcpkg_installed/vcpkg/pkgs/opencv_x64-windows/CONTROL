@@ -1,0 +1,16 @@
+Package: opencv
+Version: 4.8.0
+Port-Version: 1
+Depends: opencv4
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 29a9abc9dd8790583783e227ef5bf66d5a841f6e200f47bd2bc2cafcc56a57f3
+Description: Computer vision library
+Default-Features: default-features
+
+Package: opencv
+Feature: default-features
+Depends: opencv4
+Architecture: x64-windows
+Multi-Arch: same
+Description: Platform-dependent default features

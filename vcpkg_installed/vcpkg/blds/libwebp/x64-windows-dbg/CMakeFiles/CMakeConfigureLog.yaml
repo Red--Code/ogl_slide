@@ -1,0 +1,1422 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe 
+      Build flags: /nologo;/DWIN32;/D_WINDOWS;/utf-8;/MP
+      Id flags:  
+      
+      The output was:
+      0
+      CMakeCCompilerId.c
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/3.29.5-msvc4/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wzz3xm"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wzz3xm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-wzz3xm'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7999c
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7999c.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_7999c.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7999c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7999c.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_7999c.exe /implib:cmTC_7999c.lib /pdb:cmTC_7999c.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~4/2022/COMMUN~1/VC/Tools/MSVC/1442~1.344/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.42.34433.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/deps.cmake:13 (check_c_source_compiles)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_BSWAP16"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-drlgk5"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-drlgk5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BUILTIN_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-drlgk5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2aace
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BUILTIN_BSWAP16  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2aace.dir\\src.c.obj /FdCMakeFiles\\cmTC_2aace.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-drlgk5\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2aace.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2aace.dir\\src.c.obj  /out:cmTC_2aace.exe /implib:cmTC_2aace.lib /pdb:cmTC_2aace.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_2aace.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2aace.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2aace.dir\\src.c.obj  /out:cmTC_2aace.exe /implib:cmTC_2aace.lib /pdb:cmTC_2aace.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2aace.dir\\src.c.obj /out:cmTC_2aace.exe /implib:cmTC_2aace.lib /pdb:cmTC_2aace.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_2aace.dir/intermediate.manifest CMakeFiles\\cmTC_2aace.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main\x0d
+        cmTC_2aace.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/deps.cmake:21 (check_c_source_compiles)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_BSWAP32"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-p5xpqx"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-p5xpqx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BUILTIN_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-p5xpqx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_53920
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BUILTIN_BSWAP32  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_53920.dir\\src.c.obj /FdCMakeFiles\\cmTC_53920.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-p5xpqx\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_53920.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_53920.dir\\src.c.obj  /out:cmTC_53920.exe /implib:cmTC_53920.lib /pdb:cmTC_53920.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_53920.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_53920.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_53920.dir\\src.c.obj  /out:cmTC_53920.exe /implib:cmTC_53920.lib /pdb:cmTC_53920.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_53920.dir\\src.c.obj /out:cmTC_53920.exe /implib:cmTC_53920.lib /pdb:cmTC_53920.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_53920.dir/intermediate.manifest CMakeFiles\\cmTC_53920.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main\x0d
+        cmTC_53920.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/deps.cmake:29 (check_c_source_compiles)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_BSWAP64"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-8nl3gd"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-8nl3gd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_BUILTIN_BSWAP64"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-8nl3gd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d1f83
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BUILTIN_BSWAP64  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d1f83.dir\\src.c.obj /FdCMakeFiles\\cmTC_d1f83.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-8nl3gd\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d1f83.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d1f83.dir\\src.c.obj  /out:cmTC_d1f83.exe /implib:cmTC_d1f83.lib /pdb:cmTC_d1f83.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_d1f83.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d1f83.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d1f83.dir\\src.c.obj  /out:cmTC_d1f83.exe /implib:cmTC_d1f83.lib /pdb:cmTC_d1f83.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d1f83.dir\\src.c.obj /out:cmTC_d1f83.exe /implib:cmTC_d1f83.lib /pdb:cmTC_d1f83.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d1f83.dir/intermediate.manifest CMakeFiles\\cmTC_d1f83.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap64 referenced in function main\x0d
+        cmTC_d1f83.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/deps.cmake:40 (find_package)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-htxhgw"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-htxhgw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-htxhgw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_16eb8
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_16eb8.dir\\src.c.obj /FdCMakeFiles\\cmTC_16eb8.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-htxhgw\\src.c
+        FAILED: CMakeFiles/cmTC_16eb8.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_16eb8.dir\\src.c.obj /FdCMakeFiles\\cmTC_16eb8.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-htxhgw\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-htxhgw\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/deps.cmake:40 (find_package)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-v20t3n"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-v20t3n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-v20t3n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ff176
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=pthread_create /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ff176.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ff176.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-v20t3n\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ff176.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ff176.dir\\CheckFunctionExists.c.obj  /out:cmTC_ff176.exe /implib:cmTC_ff176.lib /pdb:cmTC_ff176.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ff176.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ff176.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ff176.dir\\CheckFunctionExists.c.obj  /out:cmTC_ff176.exe /implib:cmTC_ff176.lib /pdb:cmTC_ff176.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ff176.dir\\CheckFunctionExists.c.obj /out:cmTC_ff176.exe /implib:cmTC_ff176.lib /pdb:cmTC_ff176.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ff176.dir/intermediate.manifest CMakeFiles\\cmTC_ff176.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "cmake/deps.cmake:40 (find_package)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7jbhlj"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7jbhlj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7jbhlj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_14773
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  -DCHECK_FUNCTION_EXISTS=pthread_create /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_14773.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_14773.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-7jbhlj\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_14773.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_14773.dir\\CheckFunctionExists.c.obj  /out:cmTC_14773.exe /implib:cmTC_14773.lib /pdb:cmTC_14773.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_14773.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_14773.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_14773.dir\\CheckFunctionExists.c.obj  /out:cmTC_14773.exe /implib:cmTC_14773.lib /pdb:cmTC_14773.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_14773.dir\\CheckFunctionExists.c.obj /out:cmTC_14773.exe /implib:cmTC_14773.lib /pdb:cmTC_14773.pdb /version:0.0 /machine:x64 /nologo /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_14773.dir/intermediate.manifest CMakeFiles\\cmTC_14773.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/deps.cmake:60 (check_c_source_compiles)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test HAVE_MATH_LIBRARY"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nqb4hg"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nqb4hg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_MATH_LIBRARY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nqb4hg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bc1f6
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_MATH_LIBRARY  /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bc1f6.dir\\src.c.obj /FdCMakeFiles\\cmTC_bc1f6.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nqb4hg\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_bc1f6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bc1f6.dir\\src.c.obj  /out:cmTC_bc1f6.exe /implib:cmTC_bc1f6.lib /pdb:cmTC_bc1f6.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:131 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file GLUT/glut.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nruput"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nruput"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GLUT_GLUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nruput'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ea3a6
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea3a6.dir\\HAVE_GLUT_GLUT_H.c.obj /FdCMakeFiles\\cmTC_ea3a6.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nruput\\HAVE_GLUT_GLUT_H.c
+        FAILED: CMakeFiles/cmTC_ea3a6.dir/HAVE_GLUT_GLUT_H.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea3a6.dir\\HAVE_GLUT_GLUT_H.c.obj /FdCMakeFiles\\cmTC_ea3a6.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nruput\\HAVE_GLUT_GLUT_H.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nruput\\HAVE_GLUT_GLUT_H.c(2): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:132 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file GL/glut.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-kmaguu"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-kmaguu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_GL_GLUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-kmaguu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_578b6
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_578b6.dir\\HAVE_GL_GLUT_H.c.obj /FdCMakeFiles\\cmTC_578b6.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-kmaguu\\HAVE_GL_GLUT_H.c
+        FAILED: CMakeFiles/cmTC_578b6.dir/HAVE_GL_GLUT_H.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_578b6.dir\\HAVE_GL_GLUT_H.c.obj /FdCMakeFiles\\cmTC_578b6.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-kmaguu\\HAVE_GL_GLUT_H.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-kmaguu\\HAVE_GL_GLUT_H.c(2): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:133 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file OpenGL/glut.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4xjt0l"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4xjt0l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_OPENGL_GLUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-4xjt0l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_a07d4
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a07d4.dir\\HAVE_OPENGL_GLUT_H.c.obj /FdCMakeFiles\\cmTC_a07d4.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-4xjt0l\\HAVE_OPENGL_GLUT_H.c
+        FAILED: CMakeFiles/cmTC_a07d4.dir/HAVE_OPENGL_GLUT_H.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a07d4.dir\\HAVE_OPENGL_GLUT_H.c.obj /FdCMakeFiles\\cmTC_a07d4.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-4xjt0l\\HAVE_OPENGL_GLUT_H.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-4xjt0l\\HAVE_OPENGL_GLUT_H.c(2): fatal error C1083: Cannot open include file: 'OpenGL/glut.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:134 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file shlwapi.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6rjqvp"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6rjqvp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_SHLWAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-6rjqvp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_849f2
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_849f2.dir\\HAVE_SHLWAPI_H.c.obj /FdCMakeFiles\\cmTC_849f2.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-6rjqvp\\HAVE_SHLWAPI_H.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_849f2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_849f2.dir\\HAVE_SHLWAPI_H.c.obj  /out:cmTC_849f2.exe /implib:cmTC_849f2.lib /pdb:cmTC_849f2.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:135 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-djyl6u"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-djyl6u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-djyl6u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6ebf3
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6ebf3.dir\\HAVE_UNISTD_H.c.obj /FdCMakeFiles\\cmTC_6ebf3.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-djyl6u\\HAVE_UNISTD_H.c
+        FAILED: CMakeFiles/cmTC_6ebf3.dir/HAVE_UNISTD_H.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6ebf3.dir\\HAVE_UNISTD_H.c.obj /FdCMakeFiles\\cmTC_6ebf3.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-djyl6u\\HAVE_UNISTD_H.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-djyl6u\\HAVE_UNISTD_H.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:136 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file wincodec.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-17ej40"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-17ej40"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_WINCODEC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-17ej40'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1caa4
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1caa4.dir\\HAVE_WINCODEC_H.c.obj /FdCMakeFiles\\cmTC_1caa4.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-17ej40\\HAVE_WINCODEC_H.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1caa4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1caa4.dir\\HAVE_WINCODEC_H.c.obj  /out:cmTC_1caa4.exe /implib:cmTC_1caa4.lib /pdb:cmTC_1caa4.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake/deps.cmake:137 (check_include_files)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Looking for include file windows.h"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s9vzv5"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s9vzv5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "HAVE_WINDOWS_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-s9vzv5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c8744
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo   /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c8744.dir\\HAVE_WINDOWS_H.c.obj /FdCMakeFiles\\cmTC_c8744.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-s9vzv5\\HAVE_WINDOWS_H.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c8744.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c8744.dir\\HAVE_WINDOWS_H.c.obj  /out:cmTC_c8744.exe /implib:cmTC_c8744.lib /pdb:cmTC_c8744.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_SSE41"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nww684"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nww684"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_SSE41"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-nww684'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6e27b
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_SSE41 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6e27b.dir\\src.c.obj /FdCMakeFiles\\cmTC_6e27b.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-nww684\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6e27b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6e27b.dir\\src.c.obj  /out:cmTC_6e27b.exe /implib:cmTC_6e27b.lib /pdb:cmTC_6e27b.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_SSE2"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7yaghb"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7yaghb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-7yaghb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d34fc
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_SSE2 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d34fc.dir\\src.c.obj /FdCMakeFiles\\cmTC_d34fc.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-7yaghb\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d34fc.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d34fc.dir\\src.c.obj  /out:cmTC_d34fc.exe /implib:cmTC_d34fc.lib /pdb:cmTC_d34fc.pdb /version:0.0 /machine:x64  /nologo    /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS32"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2robhw"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2robhw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS32"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-2robhw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e70ea
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS32 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e70ea.dir\\src.c.obj /FdCMakeFiles\\cmTC_e70ea.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c
+        FAILED: CMakeFiles/cmTC_e70ea.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS32 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e70ea.dir\\src.c.obj /FdCMakeFiles\\cmTC_e70ea.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-2robhw\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS32"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fv02qf"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fv02qf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS32"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-fv02qf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_92cde
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS32 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_92cde.dir\\src.c.obj /FdCMakeFiles\\cmTC_92cde.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c
+        FAILED: CMakeFiles/cmTC_92cde.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS32 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_92cde.dir\\src.c.obj /FdCMakeFiles\\cmTC_92cde.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c
+        cl : Command line warning D9024 : unrecognized source file type 'NOTFOUND', object file assumed
+        cl : Command line warning D9027 : source file 'NOTFOUND' ignored
+        cl : Command line warning D9030 : '/showIncludes' is incompatible with multiprocessing; ignoring /MP switch
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-fv02qf\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS_DSP_R2"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-znpp8u"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-znpp8u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS_DSP_R2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-znpp8u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ea248
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea248.dir\\src.c.obj /FdCMakeFiles\\cmTC_ea248.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c
+        FAILED: CMakeFiles/cmTC_ea248.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea248.dir\\src.c.obj /FdCMakeFiles\\cmTC_ea248.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-znpp8u\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MIPS_DSP_R2"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yaac6q"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yaac6q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MIPS_DSP_R2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-yaac6q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_7dc03
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7dc03.dir\\src.c.obj /FdCMakeFiles\\cmTC_7dc03.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c
+        FAILED: CMakeFiles/cmTC_7dc03.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MIPS_DSP_R2 -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7dc03.dir\\src.c.obj /FdCMakeFiles\\cmTC_7dc03.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c
+        cl : Command line warning D9024 : unrecognized source file type 'NOTFOUND', object file assumed
+        cl : Command line warning D9027 : source file 'NOTFOUND' ignored
+        cl : Command line warning D9030 : '/showIncludes' is incompatible with multiprocessing; ignoring /MP switch
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-yaac6q\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_NEON"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-f6m8or"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-f6m8or"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_NEON"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-f6m8or'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_37949
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_NEON -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_37949.dir\\src.c.obj /FdCMakeFiles\\cmTC_37949.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c
+        FAILED: CMakeFiles/cmTC_37949.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_NEON -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_37949.dir\\src.c.obj /FdCMakeFiles\\cmTC_37949.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-f6m8or\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_NEON"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uh1k1k"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uh1k1k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_NEON"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-uh1k1k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_bc0f7
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_NEON -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bc0f7.dir\\src.c.obj /FdCMakeFiles\\cmTC_bc0f7.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c
+        FAILED: CMakeFiles/cmTC_bc0f7.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_NEON -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bc0f7.dir\\src.c.obj /FdCMakeFiles\\cmTC_bc0f7.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c
+        cl : Command line warning D9024 : unrecognized source file type 'NOTFOUND', object file assumed
+        cl : Command line warning D9027 : source file 'NOTFOUND' ignored
+        cl : Command line warning D9030 : '/showIncludes' is incompatible with multiprocessing; ignoring /MP switch
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-uh1k1k\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:90 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MSA"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pu810h"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pu810h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MSA"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-pu810h'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_45cd1
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MSA -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_45cd1.dir\\src.c.obj /FdCMakeFiles\\cmTC_45cd1.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c
+        FAILED: CMakeFiles/cmTC_45cd1.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MSA -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP   /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_45cd1.dir\\src.c.obj /FdCMakeFiles\\cmTC_45cd1.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-pu810h\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/cpu.cmake:21 (check_c_source_compiles)"
+      - "cmake/cpu.cmake:97 (webp_check_compiler_flag)"
+      - "cmake/deps.cmake:145 (include)"
+      - "CMakeLists.txt:114 (include)"
+    checks:
+      - "Performing Test WEBP_HAVE_FLAG_MSA"
+    directories:
+      source: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9byjob"
+      binary: "D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9byjob"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " /nologo /DWIN32 /D_WINDOWS /utf-8 /MP "
+      CMAKE_C_FLAGS_DEBUG: "/D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: ""
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>$<$<STREQUAL:dynamic,dynamic>:DLL>"
+      VCPKG_CHAINLOAD_TOOLCHAIN_FILE: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/toolchains/windows.cmake"
+      VCPKG_CRT_LINKAGE: "dynamic"
+      VCPKG_CXX_FLAGS: ""
+      VCPKG_CXX_FLAGS_DEBUG: ""
+      VCPKG_CXX_FLAGS_RELEASE: ""
+      VCPKG_C_FLAGS: ""
+      VCPKG_C_FLAGS_DEBUG: ""
+      VCPKG_C_FLAGS_RELEASE: ""
+      VCPKG_INSTALLED_DIR: "D:/projects/vms/ogl_slide/vcpkg_installed"
+      VCPKG_LINKER_FLAGS: ""
+      VCPKG_LINKER_FLAGS_DEBUG: ""
+      VCPKG_LINKER_FLAGS_RELEASE: ""
+      VCPKG_PLATFORM_TOOLSET: "v143"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_SET_CHARSET_FLAG: "ON"
+      VCPKG_TARGET_ARCHITECTURE: "x64"
+      VCPKG_TARGET_TRIPLET: "x64-windows"
+      Z_VCPKG_ROOT_DIR: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg"
+    buildResult:
+      variable: "WEBP_HAVE_FLAG_MSA"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/projects/vms/ogl_slide/vcpkg_installed/vcpkg/blds/libwebp/x64-windows-dbg/CMakeFiles/CMakeScratch/TryCompile-9byjob'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d50b3
+        [1/2] C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MSA -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d50b3.dir\\src.c.obj /FdCMakeFiles\\cmTC_d50b3.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c
+        FAILED: CMakeFiles/cmTC_d50b3.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo -DWEBP_HAVE_FLAG_MSA -ID:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\src\\v1.4.0-3f90aab08d.clean /nologo /DWIN32 /D_WINDOWS /utf-8 /MP  NOTFOUND /D_DEBUG /MDd /Z7 /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d50b3.dir\\src.c.obj /FdCMakeFiles\\cmTC_d50b3.dir\\ /FS -c D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c
+        cl : Command line warning D9024 : unrecognized source file type 'NOTFOUND', object file assumed
+        cl : Command line warning D9027 : source file 'NOTFOUND' ignored
+        cl : Command line warning D9030 : '/showIncludes' is incompatible with multiprocessing; ignoring /MP switch
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2065: 'this': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2146: syntax error: missing ';' before identifier 'is'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2065: 'is': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2146: syntax error: missing ';' before identifier 'not'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2065: 'not': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2146: syntax error: missing ';' before identifier 'valid'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2065: 'valid': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2146: syntax error: missing ';' before identifier 'code'
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(5): error C2065: 'code': undeclared identifier
+        D:\\projects\\vms\\ogl_slide\\vcpkg_installed\\vcpkg\\blds\\libwebp\\x64-windows-dbg\\CMakeFiles\\CMakeScratch\\TryCompile-9byjob\\src.c(7): error C2143: syntax error: missing ';' before 'return'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
